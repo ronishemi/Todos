@@ -10,11 +10,12 @@ import android.widget.EditText;
 
 public class TaskListActivity extends Activity {
 
-    public final static String EXTRA_MESSAGE = "com.jsupport.listviewimages.listviewimagesActivity.MESSAGE";
+    public static String EXTRA_MESSAGE = "com.jsupport.listviewimages.listviewimagesActivity.MESSAGE";
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	 super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_task_list);
+         
      }
 
     @Override
